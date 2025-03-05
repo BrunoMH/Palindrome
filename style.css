@@ -1,0 +1,40 @@
+body {
+    font-family: 'Lucida Sans', sans-serif;
+    background-color: gray;
+    text-align: center;
+}
+
+.container {
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#text-input {
+    height: 20px;
+    margin: 5px;
+    border-radius: 2px;
+    border: 1px solid #ddd;
+    color: black;
+    font-style: bold;
+}
+
+#check-btn {
+    height: 30px;
+    width: 60px;
+    color: white;
+    background-color: blue;
+    border: solid blue 2px;
+    border-radius:2px;
+}
+
+#check-btn:hover {
+    background-color: white;
+    color:blue;
+}
+
+#result {
+    color:black;
+}
